@@ -1,0 +1,4 @@
+cum pun python script in docker / cum fac threads
+monitoring si consumer sunt 2 programe java diferite
+
+connection factory to rabbit mq

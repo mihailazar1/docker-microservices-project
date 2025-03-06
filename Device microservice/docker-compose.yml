@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  device-service:  # Unique service name for the device microservice
+    image: device_img
+#    ports:
+#      - "8081:8081"
+    environment:
+      - DB_IP=host.docker.internal
+    
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.device-ms.rule=PathPrefix(`/device`)"
+      - "traefik.http.services.device-ms.loadbalancer.server.port=8081"    
+    
+    networks:
+      demo_net:
+        aliases:
+          - device-service  # Explicit alias for network communication
+
+networks:
+  demo_net:
+    external: true

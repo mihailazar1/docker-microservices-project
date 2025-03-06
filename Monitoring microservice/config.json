@@ -1,0 +1,5 @@
+{
+    "device_id": 1,
+    "rabbitmq_url": "amqps://viaqqijq:f08IQBmtQOYlQbw1sGU5aHgRgjoUU7qB@goose.rmq2.cloudamqp.com/viaqqijq",
+    "queue_name": "smart-metering"
+}

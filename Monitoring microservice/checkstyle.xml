@@ -1,0 +1,120 @@
+<!DOCTYPE module PUBLIC
+        "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+<module description="Checker">
+    <module description="TreeWalker">
+        <module description="EmptyStatement">
+            <property description="severity" value="error" />
+        </module>
+        <module description="EqualsHashCode">
+            <property description="severity" value="error" />
+        </module>
+        <module description="MissingSwitchDefault">
+            <property description="severity" value="error" />
+        </module>
+        <module description="IllegalInstantiation">
+            <property description="severity" value="error" />
+        </module>
+        <module description="InnerAssignment">
+            <property description="severity" value="error" />
+        </module>
+        <module description="AvoidNestedBlocks">
+            <property description="severity" value="error" />
+        </module>
+
+        <module description="ConstantName">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="LocalFinalVariableName">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="LocalVariableName">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="MemberName">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="MethodName">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="PackageName">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="ParameterName">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="StaticVariableName">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="TypeName">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="IllegalImport">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="RedundantImport">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="UnusedImports">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="MethodLength">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="ParameterNumber">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="ModifierOrder">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="RedundantModifier">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="NeedBraces">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="HiddenField">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="MagicNumber">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="MultipleVariableDeclarations">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="SimplifyBooleanExpression">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="SimplifyBooleanReturn">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="DesignForExtension">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="FinalClass">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="HideUtilityClassConstructor">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="InterfaceIsType">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="VisibilityModifier">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="ArrayTypeStyle">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="FinalParameters">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="TodoComment">
+            <property description="severity" value="warning" />
+        </module>
+        <module description="UpperEll">
+            <property description="severity" value="warning" />
+        </module>
+
+    </module>
+</module>

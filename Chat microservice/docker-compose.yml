@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  device-service:  # Unique service name for the device microservice
+    image: chat_img
+#    ports:
+#      - "8083:8083"
+    environment:
+      - DB_IP=host.docker.internal
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.chat-ms.rule=PathPrefix(`/chat`)"
+      - "traefik.http.services.chat-ms.loadbalancer.server.port=8083"
+      - "traefik.http.middlewares.chat-ms-ws.headers.customRequestHeaders.Connection=Upgrade"
+      - "traefik.http.middlewares.chat-ms-ws.headers.customRequestHeaders.Upgrade=websocket"
+      - "traefik.http.routers.chat-ms.middlewares=chat-ms-ws"
+    networks:
+      demo_net:
+        aliases:
+          - monitoring-service  # Explicit alias for network communication
+
+
+networks:
+  demo_net:
+    external: true
