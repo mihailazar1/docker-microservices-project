@@ -5,7 +5,7 @@ A proof of concept energy management system that consists of a frontend and 4 ot
 The administrator can perform CRUD operations on user accounts, smart energy metering devices and on the mapping of users to devices.
 
 
-<h2>Deployment diagram:</h2>
+<h2>Deployment diagram (click):</h2>
 
 <img src="https://i.imgur.com/j9X38zq.jpeg" height="30%" width="30%"/>
 <br/>
