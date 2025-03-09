@@ -1,4 +1,6 @@
-This is a proof of concept
+A proof of concept energy management system that consists of a frontend and 4 other microservices designed to manage users and their associated energy metering devices. The system also has a chat interface that provides a communication means between a user and an administrator. 
+
+The administrator can perform CRUD operations on user accounts, smart energy metering devices and on the mapping of users to devices.
 
 
 To build the frontend Docker image run:
