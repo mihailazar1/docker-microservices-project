@@ -7,8 +7,6 @@ The administrator can perform CRUD operations on user accounts, smart energy met
 
 <h2>Deployment diagram:</h2>
 
-<p>
-Parameters selection: <br/>
 <img src="https://i.imgur.com/j9X38zq.jpeg" height="30%" width="30%"/>
 <br/>
 <br/>
