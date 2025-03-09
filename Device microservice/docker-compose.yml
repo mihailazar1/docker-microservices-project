@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  device-service:  # Unique service name for the device microservice
+  device-service: 
     image: device_img
 #    ports:
 #      - "8081:8081"
@@ -16,7 +16,7 @@ services:
     networks:
       demo_net:
         aliases:
-          - device-service  # Explicit alias for network communication
+          - device-service  
 
 networks:
   demo_net:
