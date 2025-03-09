@@ -1,3 +1,6 @@
+This is a proof of concept
+
+
 To build the frontend Docker image run:
 
 -> docker build -t front_img .
