@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  device-service:  # Unique service name for the device microservice
+  device-service:  
     image: chat_img
 #    ports:
 #      - "8083:8083"
@@ -17,7 +17,7 @@ services:
     networks:
       demo_net:
         aliases:
-          - monitoring-service  # Explicit alias for network communication
+          - monitoring-service 
 
 
 networks:
